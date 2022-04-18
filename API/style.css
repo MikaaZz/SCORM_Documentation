@@ -1,0 +1,73 @@
+body {
+    background: #EDFAFF;
+}
+
+.mainTela {
+    align-items: center;
+
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 20px;
+
+    padding: 0px 0px 50px 0px;
+}
+
+iframe {
+    width: 100%;
+    height: 960px;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 50px;
+}
+
+.botao__Iniciar {
+    position: absolute;
+    top: 750px;
+    left: 480px;
+
+    width: 900px;
+    height: 70px;
+
+    background: #FFFFFF;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+
+    text-align: center;
+
+    color: #F2421B;
+
+    cursor: pointer;
+}
+
+.botao {
+    width: 320px;
+    height: 50px;
+
+    background: #F2421B;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 150px;
+
+    color: white;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.sumir {
+    display: none;
+}
+
+.aparecer {
+    display: flex;
+}

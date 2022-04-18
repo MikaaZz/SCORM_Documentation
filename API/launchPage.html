@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução Teste</title>
+    <link rel="stylesheet" href="../resetCss/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="../API/APIcomunication.js"></script>
+</head>
+
+<body>
+    <main class="mainTela">
+        <iframe id="iframe__curso" src="" frameborder="0"></iframe>
+        <input type="button" class="botao__Iniciar" value="Iniciar experiência" onclick="proximaPagina()"></input>
+    </main>
+    <nav>
+        <input type="button" class="botao botao__aulaAnterior" value="Aula Anterior" onclick="paginaAnterior()"></input>
+        <input type="button" class="botao botao__proximaAula" value="Proxima Aula" onclick="proximaPagina()"></input>
+
+        <input type="button" class="botao botao__finalizar sumir" value="Chamar LMS Finisch"></input>
+    </nav>
+
+
+    <script src="iniciando.js"></script>
+
+    <script src="navPaginas.js"></script>
+
+    <script src="finalizarLMS.js"></script>
+
+    <script>
+        window.onload = iniciandoCurso();
+    </script>
+
+</body>
+
+</html>
