@@ -2,7 +2,7 @@
 // recebe o paramentro pagina atual criado anteriormente
 // no arquivo "iniciando.js"
 function irParaPagina(paginaAtual) {
-    // cria variavel para o ifram
+    // cria variavel para o iframe
     let iframeCurso = document.querySelector("#iframe__curso");
     
     // cria variavel do botao voltar
